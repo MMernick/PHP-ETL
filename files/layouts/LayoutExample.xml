@@ -1,0 +1,46 @@
+<layout delimitedBy=";" fileType="">
+    <header lookfor="row">
+        <field>estado</field>
+        <field>EAN</field>
+        <field>Cod.Ind</field>
+        <field>Industria</field>
+        <field>Divisao</field>
+        <field>Cod.Prod</field>
+        <field>Descricao</field>
+        <field>Emb.Padrao</field>
+        <field>Ativo</field>
+        <field>Lista</field>
+        <field>NBM</field>
+        <field>L/M</field>
+        <field>Desc servmed %</field>
+        <field>Desc cesta</field>
+        <field>Desc industria</field>
+        <field>Desc Utilizado</field>
+        <field>Validade</field>
+        <field>PF</field>
+        <field>PMC</field>
+        <field>Icms Ret</field>
+    </header>
+    <items lookfor="collection">
+        <field name="uf"/>
+        <field name="codigoBarras"/>
+        <field name="fabricante"/>
+        <field name="razaoSocial"/>
+        <field name="divisao"/>
+        <field name="produtoCodigo"/>
+        <field name="descricao"/>
+        <field name="embalagem"/>
+        <field name="status"/>
+        <field name="lista"/>
+        <field name="nbm"/>
+        <field name="categoria"/>
+        <field name="desconto" type="float" format="," length="7" padStyle="head" paddedBy="0"/>
+        <field name="desconto2" type="float" format="," length="7" padStyle="head" paddedBy="0"/>
+        <field name="desconto3" type="float" format="," length="7" padStyle="head" paddedBy="0"/>
+        <field name="descontoVantagem" type="float" format="," length="7" padStyle="head" paddedBy="0"/>
+        <field name="validade"/>
+        <field name="precofabrica" type="float" format="," length="14" padStyle="head" paddedBy="0"/>
+        <field name="precoMaximoConsumidor" type="float" format="," length="14" padStyle="head" paddedBy="0"/>
+        <field name="imposto" type="float" format="," length="14" padStyle="head" paddedBy="0"/>
+    </items>
+</layout>
